@@ -2,7 +2,7 @@
   "name": "number2words",
   "version": "0.2.0",
   "description": "A library to convert a number input in words. Support multiple languages.",
-  "main": "index.js",
+  "main": "src/number2words.js",
   "scripts": {
     "test": "istanbul cover jasmine-node -- --color --autotest --verbose spec/ src/",
     "serve-coverage": "http-server coverage/lcov-report/"
